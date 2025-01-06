@@ -1,0 +1,88 @@
+.popularText h1 {
+    word-spacing: 16px;
+    color: white;
+    margin-top: 0px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-family: Papyrus !important;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.popularText {
+    background: black;
+}
+
+.map-wrap {
+    display: block;
+    padding: 5rem;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+  }
+  
+  .map-container {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+  }
+
+  .googleMap {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #F5ECD5;
+  }
+
+   .map-wrap:hover {
+     scale: 1.2;
+  }
+  
+
+  .googleMap h2 {
+    margin: 12px;
+  }
+
+.googleMap p {
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  @media screen and (max-width: 1380px) {
+    .map-wrap {
+        padding: 2rem;
+      }
+}
+
+@media screen and (max-width: 1090px) {
+    .map-wrap {
+        padding: 1rem;
+      }
+}
+
+@media screen and (max-width: 990px) {
+    .map-wrap {
+        padding: 10px;
+      }
+      .map-container {
+        height: 250px;
+        width: 250px;
+      }
+}
+
+@media screen and (max-width: 841px) {
+    .googleMap {
+        display: block;
+        text-align: center;
+    }
+    .map-container {
+         text-align: left;
+      }
+
+      .map-wrap {
+        border-bottom: 1px solid grey;
+        padding: 30px 0px;
+      }
+}
+

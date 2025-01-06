@@ -1,0 +1,214 @@
+.homeBanner {
+    background-image: url("../../public/homeBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    padding-top: 250px;
+    text-align: center;
+
+}
+
+.homeBanner h1 {
+    word-spacing: 16px;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: Papyrus !important;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.homeBanner button {
+    padding: 14px 60px;
+}
+
+.popularText .cardWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.popularText h1 {
+    font-family: Papyrus !important;
+    font-size: 60px;
+    font-weight: bold !important;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.popularText .card {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* width: 380px; */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 40px;
+}
+
+.popularText .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.popularText .card .img-wrap {
+    margin: 20px;
+}
+
+.popularText .card .img-wrap img {
+    height: 200px;
+}
+
+.popularText .card h2 {
+    padding: 2px 16px;
+}
+
+.textContent {
+    background: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.textContent p {
+    color: white;
+    line-height: 30px;
+    font-family: Papyrus !important;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+/*       <div className="groupImgWrap wrapper-x wrapper-y">
+        <div className="groupImg">
+          <div className="row-one">
+            <div className="groupImgOne"></div>
+            <div className="groupImgTwo"></div>
+          </div>
+          <div className="row-two">
+            <div className="groupImgThree"></div>
+            <div className="groupImgFour"></div>
+          </div>
+        </div>
+      </div> */
+
+.groupImgWrap {
+    width: 100%;
+}
+
+.groupImgWrap .groupImg {
+    width: 100%;
+}
+
+.groupImgWrap .row-one, .groupImgWrap .row-two {
+    display: flex;
+    justify-content: center;
+} 
+
+
+.groupImgWrap .groupImg .groupImgOne {
+    padding: 20px;
+    padding-top: 110px;
+    background: #d19e1d;
+    background: -webkit-linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
+    background: linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
+}
+
+.groupImgOne, .groupImgTwo, .groupImgThree, .groupImgFour {
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.groupImgOne:hover, .groupImgTwo:hover, .groupImgThree:hover, .groupImgFour:hover {
+    scale: 1.05;
+    -webkit-box-shadow: 5px 6px 15px 5px rgba(0,0,0,0.43); 
+    box-shadow: 5px 6px 15px 5px rgba(0,0,0,0.43);   
+}
+
+.groupImgWrap .groupImg .groupImgOne h2 {
+    margin: 20px;
+}
+
+.groupImgWrap .groupImg .groupImgOne p {
+    line-height: 24px;
+}
+
+.groupImgWrap .groupImg .groupImgTwo {
+    background-image: url("../../public/cooking.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.groupImgWrap .groupImg .groupImgThree {
+    background-image: url("../../public/cooking2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.groupImgWrap .groupImg .groupImgFour {
+    padding: 20px;
+    padding-top: 30px;
+    background: #d19e1d;
+    background: -webkit-linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
+    background: linear-gradient(to right, #d19e1d, #ffd86e, #e3a812);
+}
+
+.groupImgWrap .groupImg .groupImgFour h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.groupImgWrap .groupImg .groupImgFour p {
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+    .popularText .card {
+        margin: 10px;
+        padding: 16px 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homeBanner {
+        padding-top: 200px;
+        background-image: url("../../public/homeBannerMobile.png");
+    }
+    .homeBanner h1 {
+        word-spacing: 16px;
+        color: white;
+        margin-bottom: 30px;
+        font-size: 40px;
+        font-family: Papyrus !important;
+        text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    }
+    .popularText .card {
+        width: 300px;
+        margin: 10px;
+        padding: 16px 0px;
+        margin: 40px auto;
+    }
+    .popularText .cardWrap {
+        display: block;
+    }
+    .groupImgWrap {
+        margin-top: 40px;
+    }
+
+    .row-one, .row-two {
+        display: block !important;
+    }
+
+    .groupImgOne, .groupImgTwo, .groupImgThree, .groupImgFour {
+        height: 300px;
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+
+    .groupImgOne {
+        padding-top: 66px !important;
+    }
+
+    .groupImgFour {
+        height: 480px !important;
+    }
+}
+
+

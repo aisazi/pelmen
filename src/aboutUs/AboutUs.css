@@ -1,0 +1,54 @@
+.aboutUs {
+    padding-top: 84px;
+    width: 100%;
+}
+
+
+
+.rowOne {
+    margin-top: 40px;
+}
+
+.aboutUs .colOne, .aboutUs .colTwo {
+    width: 50%;
+    padding: 60px;
+}
+.aboutUs .rowOne {
+    background: #F5ECD5;
+    display: flex;
+}
+
+.aboutUs .rowTwo {
+    background: #578E7E;
+    display: flex;
+}
+
+.aboutUs .rowThree {
+    background: #FFFAEC;
+    display: flex;
+}
+
+.aboutUs img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .aboutUs .colOne, .aboutUs .colTwo {
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutUs .rowOne, .aboutUs .rowTwo, .aboutUs .rowThree {
+        display: block;
+    }
+
+    .aboutUs .colOne, .aboutUs .colTwo {
+        width: 100%;
+        padding: 30px;
+    }
+
+}
+
