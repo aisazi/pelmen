@@ -6,9 +6,11 @@
     width: 100%;
     padding-top: 250px;
     text-align: center;
-
 }
 
+.homeSection {
+    background: #FFAF00 !important;
+}
 .homeBanner h1 {
     word-spacing: 16px;
     color: white;
@@ -23,8 +25,9 @@
 }
 
 .popularText .cardWrap {
-    display: flex;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .popularText h1 {
@@ -33,16 +36,19 @@
     font-weight: bold !important;
     text-align: center;
     margin-top: 36px;
+
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
 
 .popularText .card {
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    /* width: 380px; */
     border-radius: 15px;
     padding: 20px;
     margin: 20px 40px;
+    background: white;
 }
 
 .popularText .card:hover {
@@ -55,6 +61,7 @@
 
 .popularText .card .img-wrap img {
     height: 200px;
+    width: 300px;
 }
 
 .popularText .card h2 {
@@ -76,18 +83,6 @@
     letter-spacing: 2px;
 }
 
-/*       <div className="groupImgWrap wrapper-x wrapper-y">
-        <div className="groupImg">
-          <div className="row-one">
-            <div className="groupImgOne"></div>
-            <div className="groupImgTwo"></div>
-          </div>
-          <div className="row-two">
-            <div className="groupImgThree"></div>
-            <div className="groupImgFour"></div>
-          </div>
-        </div>
-      </div> */
 
 .groupImgWrap {
     width: 100%;
@@ -189,6 +184,11 @@
     }
     .groupImgWrap {
         margin-top: 40px;
+    }
+
+    .popularText .card .img-wrap img {
+        height: 200px;
+        width: 230px;
     }
 
     .row-one, .row-two {

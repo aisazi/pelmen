@@ -9,7 +9,20 @@ export default function Header() {
     <nav className="wrapper-x">
       <div className="icon-wrap">
         <a className="" href="#">
-          <img src="../logo.png" width="220px" height="60px" alt="" />
+          <img
+            className="imgLogo"
+            src="../home/newlogoImg.png"
+            width="150px"
+            height="60px"
+            alt=""
+          />
+          <img
+            className="textLogo"
+            src="../home/newlogoWord.png"
+            width="400px"
+            height="60px"
+            alt=""
+          />
         </a>{" "}
         <img
           onClick={() => setMenu(!menu)}

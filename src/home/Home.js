@@ -2,30 +2,53 @@ import React from "react";
 import "./Home.css";
 
 export default function Home() {
+
   return (
     <>
       <div className="homeBanner wrapper-x">
         <h1>Welcome to Home of Handmade Yummy Pelmen's</h1>
         <button className="buttonAnimation">Our Proucts</button>
       </div>
-      <div className="wrapper-x wrapper-y popularText">
+      <div className="wrapper-x wrapper-y popularText homeSection ">
         <h1>What's Popular</h1>
+
         <div className="cardWrap">
           <div className="card">
             <div className="img-wrap">
-              <img src="../manty.jpg" />
+              <img src="../home/whitepel.jpg" />
             </div>
             <h2>Manty</h2>
           </div>
           <div className="card">
             <div className="img-wrap">
-              <img src="../pelmen.jpg" />
+              <img src="../home/var.jpg" />
             </div>
             <h2>Pelmen</h2>
           </div>
           <div className="card">
             <div className="img-wrap">
-              <img src="../cutlet.jpg" />
+              <img src="../home/manty.jpg" />
+            </div>
+            <h2>Cutlet</h2>
+          </div>
+
+          <div className="card">
+            <div className="img-wrap">
+              <img src="../home/fri.jpg" />
+            </div>
+            <h2>Cutlet</h2>
+          </div>
+
+          <div className="card">
+            <div className="img-wrap">
+              <img src="../home/tefteli.JPG" />
+            </div>
+            <h2>Cutlet</h2>
+          </div>
+
+          <div className="card">
+            <div className="img-wrap">
+              <img src="../home/paprika.JPG" />
             </div>
             <h2>Cutlet</h2>
           </div>

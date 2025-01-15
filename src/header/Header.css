@@ -47,6 +47,18 @@ nav ul li a:hover {
     justify-content: space-between;
 }
 
+.imgLogo {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .textLogo {
+        display: none;
+    }
+    .imgLogo {
+        display: block;
+    }
+}
 
 
 @media screen and (max-width: 800px) {
