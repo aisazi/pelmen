@@ -54,6 +54,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div className="textContent wrapper-x">
         <p>
           At HANDMADE.COM, we bring the authentic taste of handmade goodness to
